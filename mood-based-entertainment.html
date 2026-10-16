@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mood Entertainment Picker</title>
+  <link rel="stylesheet" href="mood-based-entertainment.css" />
+</head>
+<body>
+
+  <main class="app">
+    <header class="header">
+      <h1>🎬 Mood Entertainment Picker</h1>
+      <p>Pick entertainment based on your mood</p>
+    </header>
+
+    <section class="controls">
+      <input type="text" id="searchInput" placeholder="Search title..." />
+
+      <div class="buttons">
+        <button class="mood-btn" data-mood="All">All</button>
+        <button class="mood-btn" data-mood="Happy">Happy</button>
+        <button class="mood-btn" data-mood="Sad">Sad</button>
+        <button class="mood-btn" data-mood="Relax">Relax</button>
+        <button class="mood-btn" data-mood="Motivated">Motivated</button>
+        <button class="mood-btn" data-mood="Horror">Horror</button>
+      </div>
+
+      <div class="buttons">
+        <button class="category-btn" data-category="All">All Categories</button>
+        <button class="category-btn" data-category="Movie">Movies</button>
+        <button class="category-btn" data-category="Anime">Anime</button>
+        <button class="category-btn" data-category="Game">Games</button>
+        <button class="category-btn" data-category="Song">Songs</button>
+      </div>
+
+      <div class="buttons">
+        <button id="highRatingBtn">High Rating</button>
+        <button id="lowRatingBtn">Low Rating</button>
+        <button id="randomBtn">🎲 Surprise Me</button>
+        <button id="themeBtn">🌙 Theme</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>Results</h2>
+      <div id="cardsContainer" class="cards-container"></div>
+    </section>
+
+    <section>
+      <h2>❤️ Favorites</h2>
+      <div id="favoritesContainer" class="cards-container"></div>
+    </section>
+
+    <section>
+      <h2>🕘 Recently Viewed</h2>
+      <div id="recentContainer" class="cards-container"></div>
+    </section>
+  </main>
+
+  <script src="mood-based-entertainment.js"></script>
+</body>
+</html>
