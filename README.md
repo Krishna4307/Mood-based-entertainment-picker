@@ -44,6 +44,8 @@ A simple and interactive web application that helps users discover entertainment
 #Technologies Used
   HTML5: Structure of the application and its interface.
   CSS3: Styling, card layouts, Grid, Flexbox, and dark theme.
+
+Watch Demo link :  https://krishna4307.github.io/Mood-based-entertainment-picker/
   JavaScript: Application logic, event handling, filtering, sorting, and random selection.
   DOM Manipulation: Dynamically render entertainment cards and update sections.
   Array Methods: map(), filter(), find(), sort(), unshift(), and pop().
